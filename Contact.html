@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Jonathan SCHWARTZ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="Accueilstylesheet.css">
+</head>
+
+<body>
+    <header>
+        <div class="resp">
+            <span class="spanh1">
+                <div class="photo1">
+                    <img src="photo.jpg" alt="photo" id="photo1">
+                </div>
+                <nav class="relative">
+                    <a class="pages" href="accueil.html">Accueil</a>
+                    <a class="pages" href="Hobby.html">Hobby</a>
+                    <a class="pages" href="Video.html">Vidéo</a>
+                    <a class="pages" href="Contact.html">Contact</a>
+                </nav>
+            </span>
+        </div>
+    </header>
+    <main class="gradient1">
+        <div class="resp">
+            <br />
+            <h1>Jonathan Schwartz, Technicien Développeur au Campus Numérique</h1>
+            <div>
+                <h2>Contact</h2>
+                <p>Il vous suffit de remplir le formulaire ci-dessous, en y laissant vos coordonnées, afin de me
+                    contacter,
+                    et je vous recontacterai par le moyen de votre choix.</p>
+            </div>
+            <div class="form1">
+                <form id="form1" action="https://httpbin.org/post" method="post">
+                    <div>
+                        <input type="radio" name="ContactPrefere" id="Telephone" value="Telephone" class="radio1">
+                        <label for="Telephone" class="radio1">Téléphone</label>
+                        <input type="radio" name="ContactPrefere" id="Email" value="Email" class="radio1">
+                        <label for="Email" class="radio1">Mail</label>
+                    </div>
+                    <div>
+                        <select required name="ObjetMessage" id="ObjetMessage">
+                            <option value="">Choisissez un objet.</option>
+                            <option value="Informations">Informations</option>
+                            <option value="Recrutement">Recrutement</option>
+                            <option value="Feedback, Conseils">Feedback, Conseils</option>
+                        </select>
+                    </div>
+                    <div>
+                        <div>
+                            <textarea name="Tel" id="adtel" placeholder="Numéro de Téléphone" cols="30"
+                                rows="1"></textarea>
+                        </div>
+                        <div>
+                            <textarea name="Email" id="admail" placeholder="Adresse Email" cols="30"
+                                rows="1"></textarea>
+                        </div>
+                        <div>
+                            <textarea name="Message" id="Message" placeholder="Ecrivez votre message ici..." cols="30"
+                                rows="7"></textarea>
+                        </div>
+                    </div>
+                    <div>
+                        <button id="env1" type="submit"><img src="./picto.png" height="40px" width="40px"></button>
+                    </div>
+                </form>
+            </div>
+            <br />
+        </div>
+    </main>
+    <footer>
+        <div class="resp">
+            <div class="linkbot">
+                <a class="linkbot1" href="accueil.html">Accueil</a>
+                <a class="linkbot1" href="Hobby.html">Hobby</a>
+                <a class="linkbot1" href="Video.html">Vidéo</a>
+                <a class="linkbot1" href="Contact.html">Contact</a>
+            </div>
+            <p>Site réalisé à l'aide de Visual Studio Code, pour le Campus Numérique in the Alps. </p>
+        </div>
+    </footer>
+</body>
+
+</html>
